@@ -1,3 +1,4 @@
+
 #root {
   max-width: 1280px;
   
@@ -145,7 +146,7 @@ body {
 }
 header,span {
   background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
-  font-size: 2em;
+  font-size: 1.3em;
   font-family: Caveat;;
 }
 
@@ -157,5 +158,7 @@ header,span {
   
 }
 
-
+body {
+  background-color: #f0e3d2;
+}
 

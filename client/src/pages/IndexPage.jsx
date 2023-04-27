@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
-import LoginPage from "./LoginPage";
+import Header from "./Header.jsx";
 
 
 export default function IndexPage() {
   return (
     <body>
+      
       <header className="p-4 flex justify-around gap-5">
           <a href="https://app.squarespacescheduling.com/schedule.php?owner=26626301" className='flex items-center gap-1'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 -90 rotate">
@@ -12,9 +13,10 @@ export default function IndexPage() {
           </svg>
           <span className='font-bold text-xl'><a href='https://www.instagram.com/browsbyjailene/'>Beauty By Jailene</a></span>
           </a>
-          {/*<div style={{background: 'linear-gradient(110deg, #f0e3d2, #f7e3d4, #bf8f72, #873e00)', minHeight: '100vh', position: 'fixed', top: 0, left: 0, right: 0, bottom: 0 }}></div>*/}
+         
+          
       {/* search  */}
-        <div className='flex gap-2 border border-gray-500 bg-orange-100 rounded-full py-3 px-4'>
+        <div className='flex gap-2 border border-gray-500 bg-gray-100 rounded-full py-3 px-4'>
         <div><a href='https://app.squarespacescheduling.com/schedule.php?owner=26626301'>Book</a> </div>
         <div className="border-l border-gray-500"></div>
         <div><a href='https://www.google.com/maps/dir//1371+W+Warm+Springs+Rd+a,+Henderson,+NV+89014/@36.0555377,-115.1150174,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80c8d141b142f4a3:0x197f80589c5c70ba!2m2!1d-115.0449773!2d36.0555581'  >Location </a></div>
@@ -25,7 +27,7 @@ export default function IndexPage() {
         <button className='bg-primary text-white px-0.4 rounded-full'></button>
         </div>
       {/* user the link to login makes the icon a clickable link to another page */}
-      <Link to={'/login'} className="flex items-center gap-2 border border-gray-500 bg-orange-100 rounded-full py-2 px-4">
+      <Link to={'/login'} className="flex items-center gap-2 border border-gray-500 bg-beige-100  rounded-full py-2 px-4">
         {/* hamburger menu */}
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
           <path fillRule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10zm0 5.25a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75a.75.75 0 01-.75-.75z" clipRule="evenodd" /></svg>
@@ -76,8 +78,10 @@ export default function IndexPage() {
 </main>
 
   <div className="words">
- <p>What exactly is Microblading?
+ <p>What is Microblading?
 Microblading is a method of permanent makeup designed to enhance the eyebrows. It involves a certified and licensed microblading artist using a hand held tool with a very fine needle to draw individual hairs, creating the illusion of full and beautifully shaped eyebrows.</p> 
   </div>
 </body>
+
   )};
+  
