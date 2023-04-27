@@ -1,11 +1,11 @@
 //ROUTES
-require('dotenv').config
+//require('dotenv').config
 const { MongoClient } = require('mongodb');
-const express=require('express')
-const app = express()
+//const express=require('express')
+//const app = express()
 
 //Set the MongoDB connection URI and database name:
-const uri = '<mongodb+srv://Meroni-bcg:DevClass23!@beautybyjailene.bvw8a2l.mongodb.net/test>';
+const uri = 'mongodb+srv://Meroni-bcg:DevClass23!@beautybyjailene.bvw8a2l.mongodb.net/?retryWrites=true&w=majority';
 const dbName = 'mydatabase';
 
 //Create a new instance of MongoClient and connect to the MongoDB server:
