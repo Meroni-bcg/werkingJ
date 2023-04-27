@@ -1,5 +1,5 @@
-
-#root {
+@import url('https://fonts.google.com/specimen/Caveat?preview.text=Meroni-Inc-Portal&preview.text_type=custom');
+/*#root {
   max-width: 1280px;
   
   padding: 2rem;
@@ -48,23 +48,23 @@
   display:inline-flex;
   position: relative;
   justify-content: center;
-  justify-content:flex-end;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+
+  background-image: url(\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
   }
 .container1 {
   height: 150px;
-  width: 150px;
+  width: 350px;
   position:relative;
   margin-top: 30px;
   padding-top: 35px;
-  margin-left: 40px;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  margin-left: 100px;
+  background-image: url(\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
   
 }
 .container-img1 {
 height: 150px;
 width: 350px;
-margin-left: -10.5em;
+margin-left: -170px;
 position: absolute;
 font-family:  Caveat;
 font-size: 1.5em;
@@ -73,17 +73,17 @@ font-size: 1.5em;
 }
 .container2 {
   height: 150px;
-  width: 150px;
+  width: 350px;
   position:relative;
   margin-top: 30px;
   padding-top: 35px;
-  margin-left: 10px;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  margin-right: 10px;
+  background-image: url(\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
 }
 .container-img2 {
 height: 150px;
 width: 350px;
-margin-left: -2.3em;
+margin-left: 75px;
 position: absolute;
 font-family: Caveat;
 font-size: 1.5em;
@@ -91,62 +91,62 @@ font-size: 1.5em;
 }
 .container3 {
   height: 150px;
-  width: 150px;
+  width: 350px;
   position:relative;
   margin-top: 30px;
   padding-top: 35px;
-  margin-left: 10px;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+margin-left: 50px;
+  background-image: url(\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
 }
 .container-img3 {
 height: 150px;
 width: 350px;
-margin-left: 5.9em;
+margin-left: 250px;
 font-family: Caveat;
 font-size: 1.5em;
 }
 .container4 {
   height: 150px;
-  width: 150px;
+  width: 350px;
   position:relative;
   margin-top: 30px;
   padding-top: 35px;
-  margin-left: 10px;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  margin-left: 60px;
+  background-image: url(\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
 }
 .container-img4 {
 height: 150px;
 width: 350px;
 margin-top: 10em;
-margin-left: -22em;
+margin-left: 70px;
 font-family: Caveat;
 font-size: 1.5em;
 }
 
 .container5 {
   height: 150px;
-  width: 150px;
+  width: 350px;
   position:relative;
   margin-top: 30px;
   padding-top: 35px;
-  margin-left: 10px;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  margin-left: 100px;
+  background-image: url(\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
 }
 .container-img5 {
   height: 150px;
   width: 350px;
   margin-top: 10em;
-  margin-left: -12em;
+  margin-left: 150px;
   position: absolute;
   font-family:  Caveat;
   font-size: 1.5em;
 }
 
 body {
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  background-image: url(Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
 }
 header,span {
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  background-image: url(Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
   font-size: 1.3em;
   font-family: Caveat;;
 }
@@ -161,7 +161,7 @@ header,span {
 
 body {
   background-color: #f0e3d2;
-}
+}*/
 
 img {
   border-radius: 3%;
@@ -171,4 +171,165 @@ img {
 img:hover {
   opacity: 0.8;
   transform: scale(1.1);
+}
+
+
+
+#root {
+  max-width: 1280px;
+  
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #33664b);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#box {
+  height: 350px;
+  width: 1000px;
+  display:inline-flex;
+  position: relative;
+  justify-content: center;
+  justify-content:flex-end;
+  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  }
+.container1 {
+  height: 150px;
+  width: 350px;
+  position:relative;
+margin-top: 30px;
+padding-top: 35px;
+  margin-left: 40px;
+  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  
+}
+.container-img1 {
+height: 170px;
+width: 350px;
+margin-left:-50px;
+position: absolute;
+font-family:  Caveat;
+font-size: 1.5em;
+
+
+}
+.container2 {
+  height: 150px;
+  width: 350px;
+  position:relative;
+  margin-top: 30px;
+  padding-top: 35px;
+  margin-left: 10px;
+  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+}
+.container-img2 {
+height: 150px;
+width: 350px;
+
+position: absolute;
+font-family: Caveat;
+font-size: 1.5em;
+}
+.container3 {
+  height: 150px;
+  width: 350px;
+  position:relative;
+  margin-top: 30px;
+  padding-top: 35px;
+  margin-left: 10px;
+  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+}
+.container-img3 {
+height: 150px;
+width: 350px;
+margin-left: 50px;
+font-family: Caveat;
+font-size: 1.5em;
+}
+
+section{
+  height:250px;
+  width:350px;
+  display:inline-flex;
+  position:relative;
+  justify-content: center;
+  justify-content:flex-end;
+}
+.container4 {
+  height: 150px;
+  width: 350px;
+  position:relative;
+  margin-left: -150px;
+  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+}
+.container-img4 {
+height: 150px;
+width: 350px;
+font-family: Caveat;
+font-size: 1.5em;
+}
+
+.container5 {
+  height: 150px;
+  width: 350px;
+  position:relative;
+  margin-left: 10px;
+  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+}
+.container-img5 {
+  height: 150px;
+  width: 350px;
+  position: absolute;
+  font-family:  Caveat;
+  font-size: 1.5em;
+}
+
+body {
+  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+}
+header,span {
+  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  font-size: 2em;
+  font-family: Caveat;;
+}
+
+
+.words {
+  font-family: Caveat;
+  font-size: 1.5em;
+  
 }

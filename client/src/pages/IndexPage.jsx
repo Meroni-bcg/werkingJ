@@ -61,7 +61,8 @@ export default function IndexPage() {
             Microblade & Shade
           </div>
         </div>
-
+</main>
+<section>
         <div className="container4">
           <div className="container-img4">
             <img src="http://www.beautybyjailene.com/uploads/1/4/2/4/142461732/published/thumbnail-orig.jpg?1673046617" alt="PowderCombo.jpg" />
@@ -75,9 +76,8 @@ export default function IndexPage() {
           Shade
           </div>
         </div>
-</main>
-
-  <div className="words">
+</section>
+  <div  className="words">
  <p>What is Microblading?
 Microblading is a method of permanent makeup designed to enhance the eyebrows. It involves a certified and licensed microblading artist using a hand held tool with a very fine needle to draw individual hairs, creating the illusion of full and beautifully shaped eyebrows.</p> 
   </div>
