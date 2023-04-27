@@ -225,7 +225,7 @@ img:hover {
   position: relative;
   justify-content: center;
   justify-content:flex-end;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  /*background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);*/
   }
 .container1 {
   height: 150px;
@@ -234,7 +234,7 @@ img:hover {
 margin-top: 30px;
 padding-top: 35px;
   margin-left: 40px;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  /*background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);*/
   
 }
 .container-img1 {
@@ -254,7 +254,7 @@ font-size: 1.5em;
   margin-top: 30px;
   padding-top: 35px;
   margin-left: 10px;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  /*background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);*/
 }
 .container-img2 {
 height: 150px;
@@ -271,7 +271,7 @@ font-size: 1.5em;
   margin-top: 30px;
   padding-top: 35px;
   margin-left: 10px;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  /*background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);*/
 }
 .container-img3 {
 height: 150px;
@@ -294,7 +294,7 @@ section{
   width: 350px;
   position:relative;
   margin-left: -150px;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  /*background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);*/
 }
 .container-img4 {
 height: 150px;
@@ -308,7 +308,7 @@ font-size: 1.5em;
   width: 350px;
   position:relative;
   margin-left: 10px;
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+ /* background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);*/
 }
 .container-img5 {
   height: 150px;
@@ -319,10 +319,11 @@ font-size: 1.5em;
 }
 
 body {
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  font-family: Caveat;
+  background-image: linear-gradient(to right, brown, beige);
 }
 header,span {
-  background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);
+  /*background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);*/
   font-size: 2em;
   font-family: Caveat;;
 }
