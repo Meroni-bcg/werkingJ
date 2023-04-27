@@ -320,7 +320,7 @@ font-size: 1.5em;
 
 body {
   font-family: Caveat;
-  background-image: linear-gradient(to right, brown, beige);
+  background-image: linear-gradient(to right, #f0e3d2, #f7e3d4, #bf8f72, #873e00);
 }
 header,span {
   /*background-image: url(C:\Users\TMadd\code\project2\Beauty-By-Jailene\client\src\assets\Images\Header.jpg);*/
