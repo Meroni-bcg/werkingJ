@@ -87,6 +87,7 @@ margin-left: -2.3em;
 position: absolute;
 font-family: Caveat;
 font-size: 1.5em;
+
 }
 .container3 {
   height: 150px;
@@ -162,3 +163,12 @@ body {
   background-color: #f0e3d2;
 }
 
+img {
+  border-radius: 3%;
+
+}
+
+img:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
